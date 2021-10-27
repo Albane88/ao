@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300&display=swap');
+
+body {
+  background-color:#f0efeb;
+}
+
+h1 {
+  color: #2a9d8f;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+}
+
+.about-me {
+  color: #264653;
+  font-size: 15px;
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.Programmer {
+  font-family: 'Bebas Neue', cursive;
+  color: #2a9d8f;
+}
+
+.stalk_me {
+  font-size: 30px;
+  color: #264653;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(193, 0, 28);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.button:hover {
+  background-color: #2a9d8f;
+  color: white
+}
+
+#navigation {
+  font-size: 50px;
+  list-style: none;
+  padding: 10px 10px;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+}
+.container {
+  color: #e8e8e4;
+}
+
+.card {
+  background-color: #f0efeb;
+  padding: 40px 0px;
+  box-shadow: 0px 10px 30px rgb(0, 0, 0);
+  border-radius: 4px;
+  margin: 20px auto;
+  width: 600px;
+  text-align: center;
+}
+
+.card1 {
+  background-color: #f0efeb;
+  padding: 2px 0px;
+  box-shadow: 0px 10px 30px rgb(0, 0, 0);
+  border-radius: 1px;
+  margin: 5px auto;
+  width: 600px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 30%;
+  width:20%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 100%;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 100%;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 100%;
+  }
+}
